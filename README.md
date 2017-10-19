@@ -1,3 +1,3 @@
 # webpack-examples
 
-Webpack 配置和特性示例
+Webpack 达人课示例
