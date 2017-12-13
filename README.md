@@ -15,14 +15,18 @@ Execuble Webpack demos, still Updating！
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## How to get started
+## How to run the demo
 
-1. clone repo
+1. clone repo & enter the demo directory
 2. npm i
 3. npm start
 4. check http://localhost:3000
 
 ## Content
+
+### get started with Webpack
+
+- [Hello Webpack](/01-get-started-with-webpack/01-hello-webpack/webpack.config.js)
 
 ### entry & output
 
