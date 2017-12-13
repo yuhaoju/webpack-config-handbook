@@ -1,14 +1,42 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [webpack-examples](#webpack-examples)
+  - [How to get started](#how-to-get-started)
+  - [Content](#content)
+    - [entry & output](#entry--output)
+    - [loaders](#loaders)
+  - [TODOS](#todos)
+  - [Not found what you need？](#not-found-what-you-need)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # webpack-examples
 
-持续更新中的 Webpack 配置示例，相比于官方文档的优点是每种配置都有相应可以运行的 Demo！
+Execuble Webpack demos, still Updating！
 
-## 如何运行
+## How to get started
 
-1. clone 项目到本地，进入想要运行的示例目录
+1. clone repo
 2. npm i
 3. npm start
-4. 访问 http://localhost:3000 (除了第一个样例以外)
+4. check http://localhost:3000
 
-## 没有找到你想要的？
+## Content
 
-可以提 issue 告诉我，也欢迎为它贡献代码💡
+### entry & output
+
+### loaders
+
+## TODOS
+
+- handle styles
+- code splitting
+- config in production environment
+- bundle optimization
+- best practice for development
+
+## Not found what you need？
+
+Any issue & contribution is welcome💡
