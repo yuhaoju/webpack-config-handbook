@@ -1,20 +1,19 @@
+# webpack-examples
+
+Execuble Webpack demos, still Updating！
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [webpack-examples](#webpack-examples)
-  - [How to get started](#how-to-get-started)
-  - [Content](#content)
-    - [entry & output](#entry--output)
-    - [loaders](#loaders)
-  - [TODOS](#todos)
-  - [Not found what you need？](#not-found-what-you-need)
+- [How to get started](#how-to-get-started)
+- [Content](#content)
+  - [entry & output](#entry--output)
+  - [loaders](#loaders)
+- [TODOS](#todos)
+- [Not found what you need？](#not-found-what-you-need)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# webpack-examples
-
-Execuble Webpack demos, still Updating！
 
 ## How to get started
 
