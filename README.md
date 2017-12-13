@@ -27,6 +27,7 @@ Execuble Webpack demos, still Updating！
 ### get started with Webpack
 
 - [Hello Webpack](/01-get-started-with-webpack/01-hello-webpack/webpack.config.js)
+- [dev server](/01-get-started-with-webpack/02-dev-server/webpack.config.js)
 
 ### entry & output
 
@@ -36,9 +37,9 @@ Execuble Webpack demos, still Updating！
 
 - handle styles
 - code splitting
-- config in production environment
+- config in prod
 - bundle optimization
-- best practice for development
+- best practice for dev
 
 ## Not found what you need？
 
