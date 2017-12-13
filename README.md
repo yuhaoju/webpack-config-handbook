@@ -39,4 +39,4 @@ Execuble Webpack demos, still Updating！
 
 ## Not found what you need？
 
-Any issue & contribution is welcome💡
+This repo is still updating, any issue & contribution is welcome💡
