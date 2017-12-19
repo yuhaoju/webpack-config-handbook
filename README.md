@@ -6,8 +6,9 @@ Execuble Webpack demos, still Updating！
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [How to get started](#how-to-get-started)
+- [How to run the demo](#how-to-run-the-demo)
 - [Content](#content)
+  - [get started with Webpack](#get-started-with-webpack)
   - [entry & output](#entry--output)
   - [loaders](#loaders)
 - [TODOS](#todos)
