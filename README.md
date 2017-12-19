@@ -39,6 +39,12 @@ Executable Webpack demos, still UPDATING!
 - [entry-string](/02-entry-and-output/entry-string/webpack.config.js)
 - [entry-array](/02-entry-and-output/entry-array/webpack.config.js)
 - [entry-object](/02-entry-and-output/entry-object/webpack.config.js)
+- entry-complex(TODO)
+- entry-function(TODO)
+- output-filename(TODO)
+- output-path(TODO)
+- output-publicPath(TODO)
+- output-chunkFilename(TODO)
 
 ### 03-loaders
 
@@ -66,6 +72,9 @@ Executable Webpack demos, still UPDATING!
 ### 06-config-in-prod
 
 - [minifying-asset](/06-config-in-prod/minifying-asset/webpack.config.js)
+- prod-env-params(TODO)
+- chunkhash(TODO)
+- ...
 
 ### 07-bundle-optimization
 
@@ -77,11 +86,14 @@ Executable Webpack demos, still UPDATING!
 
 ### 08-best-practice-for-dev
 
-- TODO
+- source-map(TODO)
+- dev-tool(TODO)
+- ...
 
 ### 09-others
 
 - [externals](/09-others/externals/webpack.config.js)
+- ...
 
 ## Not found what you need？
 
