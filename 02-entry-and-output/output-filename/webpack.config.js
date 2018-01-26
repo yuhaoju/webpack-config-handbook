@@ -1,11 +1,14 @@
 const path = require('path');
 
 module.exports = {
-    entry: './app.js',
+    entry: {
+        'partA': './partA.js',
+        'partB': './partB.js',
+        'index': './index.js',
+    },
     output: {
         path: path.join(__dirname, 'dist'),
-        publicPath: '/dist/',
-        filename: 'bundle.js'
+        filename: '[name]-[chunkhash].js'
     },
     devServer: {
         publicPath: "/dist/",
