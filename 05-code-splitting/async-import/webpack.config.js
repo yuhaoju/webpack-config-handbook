@@ -7,14 +7,6 @@ module.exports = {
         publicPath: '/dist/',
         filename: 'bundle.js'
     },
-    module: {
-        loaders: [
-            {
-                test: /\.css/,
-                loader: 'style-loader!css-loader'
-            }
-        ]
-    },
     devServer: {
         publicPath: "/dist/",
         port: 3000
