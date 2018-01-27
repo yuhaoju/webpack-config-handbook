@@ -61,7 +61,7 @@ Executable Webpack demos, still UPDATING!
 ### 04-handle-styles
 
 - inline-style(TODO)
-- seperate-css(TODO)
+- [seperate-css](/04-handle-styles/seperate-css/webpack.config.js)
 - styles-in-commons-chunk(TODO)
 - css-in-js(TODO)
 
