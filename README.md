@@ -52,7 +52,7 @@ Executable Webpack demos, still UPDATING!
 - [css-loader](/03-loaders/css-loader/webpack.config.js)
 - sass-loader(TODO)
 - less-loader(TODO)
-- ts-loader(TODO)
+- [ts-loader](/03-loaders/ts-loader/webpack.config.js)
 - vue-loader(TODO)
 - file-loader(TODO)
 - url-loader(TODO)
