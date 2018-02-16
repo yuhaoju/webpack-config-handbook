@@ -54,6 +54,8 @@ Executable Webpack demos, still UPDATING!
 - less-loader(TODO)
 - [ts-loader](/03-loaders/ts-loader/webpack.config.js)
 - [eslint-loader](/03-loaders/eslint-loader/webpack.config.js)
+- [html-loader](/03-loaders/html-loader/webpack.config.js)
+- [handlebars-loader](/03-loaders/handlebars-loader/webpack.config.js)
 - vue-loader(TODO)
 - file-loader(TODO)
 - url-loader(TODO)
