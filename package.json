@@ -1,0 +1,26 @@
+{
+  "name": "webpack-examples",
+  "version": "0.1.0",
+  "description": "Minimum webpack config handbook & examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roscoe054/webpack-examples.git"
+  },
+  "keywords": [
+    "webpack",
+    "example",
+    "loader",
+    "webpack-example",
+    "webpack-demo"
+  ],
+  "author": "yuhao.ju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roscoe054/webpack-examples/issues"
+  },
+  "homepage": "https://github.com/roscoe054/webpack-examples#readme"
+}
