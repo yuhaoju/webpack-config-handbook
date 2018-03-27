@@ -1,0 +1,8 @@
+/* style.css */
+:root {
+    --highlightColor: hwb(190, 35%, 20%);
+}
+
+body {
+    color: var(--highlightColor);
+}

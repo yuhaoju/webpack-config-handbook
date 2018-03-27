@@ -1,3 +1,2 @@
-import './style.css';
-
+import './style.less';
 document.write('My Webpack app.<br/>');
