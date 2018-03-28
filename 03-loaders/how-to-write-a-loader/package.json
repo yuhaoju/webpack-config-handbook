@@ -1,5 +1,5 @@
 {
-  "name": "1-create-bundle",
+  "name": "webpack-examples",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.7.1",
-    "webpack-dev-server": "^2.9.1"
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "force-strict-loader": "file:../force-strict-loader"
   }
 }
