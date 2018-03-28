@@ -50,23 +50,29 @@ Executable Webpack demos, still UPDATING!
 
 - [babel-loader](/03-loaders/babel-loader/webpack.config.js)
 - [css-loader](/03-loaders/css-loader/webpack.config.js)
-- sass-loader(TODO)
-- less-loader(TODO)
 - [ts-loader](/03-loaders/ts-loader/webpack.config.js)
 - [eslint-loader](/03-loaders/eslint-loader/webpack.config.js)
 - [html-loader](/03-loaders/html-loader/webpack.config.js)
 - [handlebars-loader](/03-loaders/handlebars-loader/webpack.config.js)
-- vue-loader(TODO)
-- file-loader(TODO)
-- url-loader(TODO)
+- [vue-loader](/03-loaders/vue-loader/webpack.config.js)
+- [file-loader](/03-loaders/file-loader/webpack.config.js)
+- [url-loader](/03-loaders/url-loader/webpack.config.js)
 - svg-inline-loader(TODO)
+- [how-to-write-a-loader](/03-loaders/how-to-write-a-loader/webpack.config.js)
 
 ### 04-handle-styles
 
 - inline-style(TODO)
-- [seperate-css](/04-handle-styles/seperate-css/webpack.config.js)
-- styles-in-commons-chunk(TODO)
-- css-in-js(TODO)
+- [extract-css](/04-handle-styles/extract-css/webpack.config.js)
+- [extract-multiple-css](/04-handle-styles/extract-multiple-css/webpack.config.js)
+- [less](/04-handle-styles/less/webpack.config.js)
+- [scss](/04-handle-styles/scss/webpack.config.js)
+- [postcss-loader](/04-handle-styles/postcss-loader/webpack.config.js)
+- [postcss-autoprefixer](/04-handle-styles/postcss-autoprefixer/webpack.config.js)
+- [postcss-cssnext](/04-handle-styles/postcss-cssnext/webpack.config.js)
+- [postcss-stylelint](/04-handle-styles/postcss-stylelint/webpack.config.js)
+- [css-modules](/04-handle-styles/css-modules/webpack.config.js)
+- styles-with-commons-chunk(TODO)
 
 ### 05-code-splitting
 
