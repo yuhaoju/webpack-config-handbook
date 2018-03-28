@@ -11,7 +11,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 use: {
-                    loader: 'force-strict-loader',
+                    loader: path.join(__dirname, './force-strict-loader'),
                     options: {
                         sourceMap: false
                     }
