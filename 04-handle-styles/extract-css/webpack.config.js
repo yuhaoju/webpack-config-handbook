@@ -19,7 +19,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin("bundle.css")
+        new ExtractTextPlugin("style.css")
     ],
     devServer: {
         publicPath: '/dist/',
