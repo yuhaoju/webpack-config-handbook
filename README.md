@@ -77,6 +77,10 @@ Executable Webpack demos, still UPDATING!
 ### 05-code-splitting
 
 - [async-import](/05-code-splitting/async-import/webpack.config.js)
+- [commons-chunk-simple](/05-code-splitting/commons-chunk-simple/webpack.config.js)
+- [commons-chunk-vendor](/05-code-splitting/commons-chunk-vendor/webpack.config.js)
+- [commons-chunk-opt-chunks](/05-code-splitting/[commons-chunk-opt-chunks/webpack.config.js)
+- [commons-chunk-opt-minchunks](/05-code-splitting/[commons-chunk-opt-minchunks/webpack.config.js)
 
 ### 06-config-in-prod
 
