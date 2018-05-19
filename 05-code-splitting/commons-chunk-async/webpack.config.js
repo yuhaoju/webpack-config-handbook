@@ -2,17 +2,15 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-    entry: {
-        app: './app.js',
-        vendor: ['react']
-    },
+    entry: './foo.js',
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: '[name]@[chunkhash].js',
+        filename: 'foo.js'
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
-            name: 'vendor',
+            name: 'commons',
+            filename: 'commons.js',
         })
     ],
     devServer: {

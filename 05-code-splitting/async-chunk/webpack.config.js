@@ -1,10 +1,13 @@
 const path = require('path');
-
 module.exports = {
-    entry: ['babel-polyfill', './index.js'],
+    entry: {
+        foo: './foo.js'
+    },
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js'
+        publicPath: '/dist/',
+        filename: '[name].js',
+        chunkFilename: '[name].js'
     },
     devServer: {
         publicPath: '/dist/',
