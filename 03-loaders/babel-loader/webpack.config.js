@@ -11,12 +11,12 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
-                options: { // 这部分配置可以改写为 JSON 形式放到 .babelrc 中，效果相同
+                options: {
                     presets: [
                         ['env', {
-                            modules: false, // 为了开启 tree-shaking
+                            modules: false,
                             targets: {
-                                browsers: [ // 定义兼容的浏览器版本
+                                browsers: [
                                     '> 1%',
                                     'last 3 versions',
                                     'ios 8',
@@ -24,10 +24,10 @@ module.exports = {
                                     'ie 9'
                                 ]
                             },
-                            useBuiltIns: 'usage' // 按需加载 polyfill
+                            useBuiltIns: 'usage'
                         }]
                     ],
-                    plugins: [] // 根据需求自定义
+                    plugins: []
                 }
             }
         ]

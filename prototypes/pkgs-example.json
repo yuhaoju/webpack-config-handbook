@@ -17,5 +17,162 @@
     "output-filename": {
       "babel-polyfill": "^6.26.0"
     }
+  },
+  "03-loaders": {
+    "babel-loader": {
+      "babel-core": "^6.26.0",
+      "babel-loader": "^7.1.2",
+      "babel-preset-env": "^1.6.1"
+    },
+    "css-loader": {
+      "css-loader": "^0.28.7",
+      "style-loader": "^0.19.0"
+    },
+    "eslint-loader": {
+      "eslint": "^4.17.0",
+      "eslint-loader": "^1.9.0"
+    },
+    "file-loader": {
+      "file-loader": "^1.1.6"
+    },
+    "handlebars-loader": {
+      "handlebars-loader": "^1.6.0",
+      "handlebars": "^4.0.11"
+    },
+    "how-to-write-a-loader": {
+      "force-strict-loader": "file:../force-strict-loader"
+    },
+    "html-loader": {
+      "html-loader": "^0.5.5"
+    },
+    "ts-loader": {
+      "ts-loader": "^3.5.0",
+      "typescript": "^2.7.1"
+    },
+    "url-loader": {
+      "url-loader": "^0.6.2"
+    },
+    "vue-loader": {
+      "css-loader": "^0.28.9",
+      "vue": "^2.5.13",
+      "vue-loader": "^14.1.1",
+      "vue-template-compiler": "^2.5.13"
+    }
+  },
+  "04-handle-styles": {
+    "css-modules": {
+      "css-loader": "^0.28.7",
+      "style-loader": "^0.19.0"
+    },
+    "extract-css": {
+      "css-loader": "^0.28.7",
+      "extract-text-webpack-plugin": "^3.0.2",
+      "style-loader": "^0.19.0"
+    },
+    "extract-multiple-css": {
+      "css-loader": "^0.28.7",
+      "extract-text-webpack-plugin": "^3.0.2",
+      "style-loader": "^0.19.0"
+    },
+    "less": {
+      "less": "^3.0.1",
+      "less-loader": "^4.1.0",
+      "css-loader": "^0.28.7",
+      "style-loader": "^0.19.0"
+    },
+    "postcss-autoprefixer": {
+      "autoprefixer": "^8.1.0",
+      "css-loader": "^0.28.7",
+      "postcss-loader": "^2.1.2",
+      "style-loader": "^0.19.0"
+    },
+    "postcss-cssnext": {
+      "postcss-cssnext": "^3.1.0",
+      "css-loader": "^0.28.7",
+      "postcss-loader": "^2.1.2",
+      "style-loader": "^0.19.0"
+    },
+    "postcss-loader": {
+      "css-loader": "^0.28.7",
+      "postcss-loader": "^2.1.2",
+      "style-loader": "^0.19.0"
+    },
+    "postcss-stylelint": {
+      "css-loader": "^0.28.7",
+      "postcss-loader": "^2.1.2",
+      "style-loader": "^0.19.0",
+      "stylelint": "^9.1.3"
+    },
+    "scss": {
+      "css-loader": "^0.28.7",
+      "style-loader": "^0.19.0",
+      "node-sass": "^4.7.2",
+      "sass-loader": "^6.0.7"
+    }
+  },
+  "05-code-splitting": {
+    "async-chunk": {},
+    "async-import": {},
+    "commons-chunk-async": {
+      "react": "^16.4.0"
+    },
+    "commons-chunk-extract-runtime": {
+      "react": "^16.4.0"
+    },
+    "commons-chunk-opt-chunks": {
+      "react": "^16.4.0"
+    },
+    "commons-chunk-opt-minchunks": {
+      "lodash": "^4.17.5",
+      "react": "^16.4.0"
+    },
+    "commons-chunk-simple": {
+      "react": "^16.4.0"
+    },
+    "commons-chunk-vendor": {
+      "lodash": "^4.17.10",
+      "react": "^16.4.0"
+    }
+  },
+  "06-config-in-prod": {
+    "caching": {
+      "react": "^16.4.0"
+    },
+    "define-plugin": {},
+    "html-webpack-plugin": {
+      "html-webpack-plugin": "^3.2.0",
+      "react": "^16.4.0"
+    },
+    "minification": {
+      "uglifyjs-webpack-plugin": "^1.2.5"
+    },
+    "minification-css": {
+      "css-loader": "^0.28.11",
+      "extract-text-webpack-plugin": "next",
+      "optimize-css-assets-webpack-plugin": "^4.0.1",
+      "style-loader": "^0.21.0"
+    },
+    "production-mode": {
+      "react": "^16.4.0"
+    }
+  },
+  "07-bundle-optimization": {
+    "dll-plugin": {
+      "react": "^16.4.0"
+    },
+    "happypack": {
+      "babel-core": "^6.26.0",
+      "babel-loader": "^7.1.2",
+      "babel-preset-env": "^1.6.1",
+      "babel-preset-react": "^6.24.1",
+      "happypack": "^4.0.0",
+      "react": "^16.0.0",
+      "react-dom": "^16.0.0"
+    },
+    "scope-hoisting": {},
+    "tree-shaking": {}
+  },
+  "09-others": {
+    "externals": {}
   }
 }

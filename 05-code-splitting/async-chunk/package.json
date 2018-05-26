@@ -1,17 +1,14 @@
 {
-  "name": "commonsChunk",
+  "name": "async-chunk",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "webpack": "3.11.0",
-    "webpack-dev-server": "2"
-  }
+    "webpack": "3.12.0",
+    "webpack-dev-server": "2.11.2"
+  },
+  "license": "MIT"
 }

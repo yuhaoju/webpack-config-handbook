@@ -1,18 +1,16 @@
 {
-  "name": "webpack-examples",
+  "name": "ts-loader",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "dev": "webpack-dev-server",
     "build": "webpack"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "webpack": "3.12.0",
+    "webpack-dev-server": "2.11.2",
     "ts-loader": "^3.5.0",
-    "typescript": "^2.7.1",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1"
-  }
+    "typescript": "^2.7.1"
+  },
+  "license": "MIT"
 }

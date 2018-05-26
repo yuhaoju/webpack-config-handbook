@@ -1,3 +1,4 @@
+require('colors');
 const fs = require('fs');
 const path = require('path');
 
@@ -28,11 +29,25 @@ Object.keys(pkgsExamples).forEach(categoryId => {
       exampleId,
       'package.json'
     );
-    fs.writeFileSync(
-      pkgJsonPath,
-      JSON.stringify(newPkgContent, null, '  '),
-      'utf-8'
-    );
-    console.log(`Updated ${pkgJsonPath}`);
+
+    if (isFileExists(pkgJsonPath)) {
+      fs.writeFileSync(
+        pkgJsonPath,
+        JSON.stringify(newPkgContent, null, '  '),
+        'utf-8'
+      );
+    } else {
+      console.log(`[Error] not found ${pkgJsonPath}`.red);
+    }
+
+    console.log(`[Updated] ${pkgJsonPath}`.green);
   });
 });
+
+function isFileExists(filePath) {
+  try {
+    return fs.statSync(filePath).isFile();
+  } catch (err) {
+    return false;
+  }
+}

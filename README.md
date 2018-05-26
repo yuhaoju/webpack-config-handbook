@@ -91,7 +91,6 @@ Executable Webpack demos, still UPDATING!
 
 ### 07-bundle-optimization
 
-- [commons-chunk](/07-bundle-optimization/commons-chunk/webpack.config.js)
 - [dll-plugin](/07-bundle-optimization/dll-plugin/webpack.config.js)
 - [happypack](/07-bundle-optimization/happypack/webpack.config.js)
 - [scope-hoisting](/07-bundle-optimization/scope-hoisting/webpack.config.js)

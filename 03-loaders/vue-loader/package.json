@@ -1,20 +1,18 @@
 {
-  "name": "webpack-examples",
+  "name": "vue-loader",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "dev": "webpack-dev-server",
     "build": "webpack"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "webpack": "3.12.0",
+    "webpack-dev-server": "2.11.2",
     "css-loader": "^0.28.9",
     "vue": "^2.5.13",
     "vue-loader": "^14.1.1",
-    "vue-template-compiler": "^2.5.13",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1"
-  }
+    "vue-template-compiler": "^2.5.13"
+  },
+  "license": "MIT"
 }
