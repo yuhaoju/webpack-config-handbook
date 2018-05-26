@@ -1,0 +1,21 @@
+{
+  "01-get-started": {
+    "hello-webpack": {}
+  },
+  "02-entry-and-output": {
+    "entry-array": {
+      "babel-polyfill": "^6.26.0"
+    },
+    "entry-complex": {
+      "babel-polyfill": "^6.26.0"
+    },
+    "entry-function": {
+      "babel-polyfill": "^6.26.0"
+    },
+    "entry-object": {},
+    "entry-string": {},
+    "output-filename": {
+      "babel-polyfill": "^6.26.0"
+    }
+  }
+}

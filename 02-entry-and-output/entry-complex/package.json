@@ -1,18 +1,15 @@
 {
-  "name": "webpack-examples",
+  "name": "entry-complex",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack": "^3.7.1",
-    "webpack-dev-server": "^2.9.1"
+    "dev": "webpack-dev-server",
+    "build": "webpack"
   },
   "dependencies": {
+    "webpack": "3.12.0",
+    "webpack-dev-server": "2.11.2",
     "babel-polyfill": "^6.26.0"
-  }
+  },
+  "license": "MIT"
 }
