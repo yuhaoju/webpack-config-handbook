@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --open-page \"dist/index.html\"",
     "build": "webpack"
   },
   "dependencies": {

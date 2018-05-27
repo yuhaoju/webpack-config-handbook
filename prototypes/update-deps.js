@@ -5,7 +5,7 @@ const path = require('path');
 const protoPath = __dirname;
 const rootPath = path.join(protoPath, '../');
 
-const pkgsExamples = require('./pkgs-example.json');
+const pkgsExamples = require('./example-info.json');
 const pkgsTemplate = fs.readFileSync(
   path.join(protoPath, './pkgs-template.json'),
   'utf-8'
@@ -14,7 +14,7 @@ const pkgsTemplate = fs.readFileSync(
 Object.keys(pkgsExamples).forEach(categoryId => {
   const cotegory = pkgsExamples[categoryId];
   Object.keys(cotegory).forEach(exampleId => {
-    const exmapleDeps = cotegory[exampleId];
+    const exmapleDeps = cotegory[exampleId].deps;
     const newPkgContent = JSON.parse(
       pkgsTemplate.replace('${{example-name}}', exampleId)
     );
@@ -23,12 +23,8 @@ Object.keys(pkgsExamples).forEach(categoryId => {
       exmapleDeps
     );
 
-    const pkgJsonPath = path.join(
-      rootPath,
-      categoryId,
-      exampleId,
-      'package.json'
-    );
+    const examplePath = path.join(rootPath, categoryId, exampleId);
+    const pkgJsonPath = path.join(examplePath, 'package.json');
 
     if (isFileExists(pkgJsonPath)) {
       fs.writeFileSync(

@@ -2,9 +2,11 @@ env:
   node: true
   commonjs: true
   es6: true
+  browser: true
 extends: 'eslint:recommended'
 parserOptions:
   sourceType: module
+  ecmaVersion: 2017
 rules:
   linebreak-style:
     - error
@@ -16,8 +18,16 @@ rules:
     - error
     - always
   no-unused-vars:
-    - off
+    - warn
   no-inner-declarations:
-    - off
+    - warn
+  no-console:
+    off
+  comma-dangle:
+    - error
+    - always
 globals:
-  
+  describe: true
+  test: true
+  expect: true
+
