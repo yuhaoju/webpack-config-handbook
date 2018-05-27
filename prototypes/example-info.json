@@ -1,8 +1,7 @@
 {
   "01-get-started": {
     "hello-webpack": {
-      "deps": {},
-      "assets": ["main.js"]
+      "deps": {}
     }
   },
   "02-entry-and-output": {

@@ -6,7 +6,7 @@
   "author": "Yuhao Ju <yuhaoju0623@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --config jest.config.js"
+    "test": "jest"
   },
   "dependencies": {
     "colors": "^1.3.0",
@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "jest": "^23.0.0",
+    "jest-specific-snapshot": "^0.5.0",
     "webpack": "3.12.0"
   }
 }

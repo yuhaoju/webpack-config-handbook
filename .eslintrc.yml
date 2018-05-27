@@ -25,7 +25,11 @@ rules:
     off
   comma-dangle:
     - error
-    - always
+    - arrays: never
+      objects: always
+      imports: never
+      exports: never
+      functions: ignore
 globals:
   describe: true
   test: true

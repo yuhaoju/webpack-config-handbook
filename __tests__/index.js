@@ -1,3 +1,4 @@
+require('jest-specific-snapshot');
 const fs = require('fs');
 const path = require('path');
 const childProcess = require('child_process');
@@ -11,23 +12,18 @@ for (const categoryId of Object.keys(pkgsExamples)) {
 
   for (const exampleId of Object.keys(cotegory)) {
     const examplePath = path.join(rootPath, categoryId, exampleId);
-    const assets = cotegory[exampleId].assets;
-
-    if (!assets) {
-      continue;
-    } else {
-      assets.push('index.html');
-    }
 
     describe(`Testing example: ${examplePath}`, () => {
       childProcess.execSync('yarn build', { cwd: examplePath, });
 
       const distPath = path.join(examplePath, 'dist');
-      assets.map(async asset => {
-        test(`Testing asset: ${asset}`, () => {
+      fs.readdirSync(distPath).map(assetId => {
+        test(`Testing asset: ${assetId}`, () => {
           expect(
-            fs.readFileSync(path.join(distPath, asset), 'utf-8')
-          ).toMatchSnapshot();
+            fs.readFileSync(path.join(distPath, assetId), 'utf-8')
+          ).toMatchSpecificSnapshot(
+            `__snapshots__/${categoryId}/${exampleId}/${assetId}`
+          );
         });
       });
     });
