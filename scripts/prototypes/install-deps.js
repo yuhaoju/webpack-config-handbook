@@ -3,9 +3,9 @@ const path = require('path');
 const childProcess = require('child_process');
 
 const protoPath = __dirname;
-const rootPath = path.join(protoPath, '../');
+const rootPath = path.join(protoPath, '../../');
 
-const pkgsExamples = require('./example-info.json');
+const pkgsExamples = require('./static/example-info.json');
 
 install();
 

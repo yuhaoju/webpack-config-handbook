@@ -3,11 +3,11 @@ const fs = require('fs');
 const path = require('path');
 
 const protoPath = __dirname;
-const rootPath = path.join(protoPath, '../');
+const rootPath = path.join(protoPath, '../../');
 
-const pkgsExamples = require('./example-info.json');
+const pkgsExamples = require('./static/example-info.json');
 const pkgsTemplate = fs.readFileSync(
-  path.join(protoPath, './pkgs-template.json'),
+  path.join(protoPath, './static/pkgs-template.json'),
   'utf-8'
 );
 
