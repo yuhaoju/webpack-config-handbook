@@ -1,3 +1,3 @@
 export default function() {
-    document.write('module.js loaded.');
+  document.write('module.js loaded.');
 }

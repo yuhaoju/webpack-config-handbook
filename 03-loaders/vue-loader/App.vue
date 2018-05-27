@@ -7,7 +7,7 @@ export default {
     name: 'app',
     data() {
         return {
-            title: 'Welcome to Your Vue.js App'
+            title: 'Welcome to Vue'
         }
     }
 }
@@ -15,6 +15,6 @@ export default {
 
 <style lang="css">
 h1 {
-    color: #09c;
+    background-color: #eee;
 }
 </style>
