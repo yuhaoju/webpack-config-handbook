@@ -60,7 +60,7 @@
     },
     "how-to-write-a-loader": {
       "deps": {
-        "force-strict-loader": "file:../force-strict-loader"
+        "force-strict-loader": "file:./force-strict-loader"
       }
     },
     "html-loader": {
@@ -89,8 +89,8 @@
     }
   },
   "04-handle-styles": {
-    "deps": {
-      "css-modules": {
+    "css-modules": {
+      "deps": {
         "css-loader": "^0.28.7",
         "style-loader": "^0.19.0"
       }
@@ -161,9 +161,6 @@
     "async-chunk": {
       "deps": {}
     },
-    "async-import": {
-      "deps": {}
-    },
     "commons-chunk-async": {
       "deps": {
         "react": "^16.4.0"
@@ -198,8 +195,8 @@
     }
   },
   "06-config-in-prod": {
-    "deps": {
-      "caching": {
+    "caching": {
+      "deps": {
         "react": "^16.4.0"
       }
     },
@@ -238,7 +235,7 @@
         "babel-loader": "^7.1.2",
         "babel-preset-env": "^1.6.1",
         "babel-preset-react": "^6.24.1",
-        "happypack": "^4.0.0",
+        "happypack": "^5.0.0",
         "react": "^16.0.0",
         "react-dom": "^16.0.0"
       }
