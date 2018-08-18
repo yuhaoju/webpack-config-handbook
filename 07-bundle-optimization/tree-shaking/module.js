@@ -1,7 +1,11 @@
-export const log = function() {
-    console.log('module.js loaded.');
-}
+// index.js
+import { foo } from './util';
+foo();
 
-export const unusedFunc = function() {
-    console.log('not used');
+// util.js
+export function foo() {
+    console.log('foo');
+}
+export function bar() { // 没有被引用过，死代码
+    console.log('bar');
 }
