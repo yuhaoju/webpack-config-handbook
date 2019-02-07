@@ -1,0 +1,1 @@
+console.log('My first rollup app.');

@@ -15,7 +15,7 @@ module.exports = {
         options: {
           presets: [
             [
-              'env',
+              '@babel/preset-env',
               {
                 modules: false,
                 targets: {
@@ -35,9 +35,10 @@ module.exports = {
       }
     ],
   },
-  plugins: [new htmlPlugin({ title: path.basename(__dirname), })],
+  // plugins: [new htmlPlugin({ title: path.basename(__dirname), })],
   devServer: {
     publicPath: '/dist/',
     port: 3000,
   },
+  mode: 'development',
 };

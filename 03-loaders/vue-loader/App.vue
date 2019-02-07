@@ -8,9 +8,9 @@ export default {
     data() {
         return {
             title: 'Welcome to Vue'
-        }
-    }
-}
+        };
+    },
+};
 </script>
 
 <style lang="css">
