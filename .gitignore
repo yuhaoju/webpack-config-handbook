@@ -62,3 +62,4 @@ yarn.lock
 package-lock.json
 bundle.js
 dist
+.cache
