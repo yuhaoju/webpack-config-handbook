@@ -79,12 +79,6 @@ $ yarn open 05-code-splitting/async-chunk
 ### 05-code-splitting
 
 - [async-chunk](/05-code-splitting/async-chunk)
-- [commons-chunk-async](/05-code-splitting/[commons-chunk-async)
-- [commons-chunk-simple](/05-code-splitting/commons-chunk-simple)
-- [commons-chunk-vendor](/05-code-splitting/commons-chunk-vendor)
-- [commons-chunk-opt-chunks](/05-code-splitting/[commons-chunk-opt-chunks)
-- [commons-chunk-opt-minchunks](/05-code-splitting/[commons-chunk-opt-minchunks)
-- [commons-extract-runtime](/05-code-splitting/[commons-chunk-runtime)
 
 ### 06-config-in-prod
 
