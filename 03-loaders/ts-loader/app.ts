@@ -1,2 +1,2 @@
-const x: number = 1;
-console.log(x);
+const msg: string = 'using typescript';
+document.write(msg);

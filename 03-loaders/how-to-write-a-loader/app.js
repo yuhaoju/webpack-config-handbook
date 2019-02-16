@@ -1,1 +1,1 @@
-console.log('hello');
+document.write('using strict mode');

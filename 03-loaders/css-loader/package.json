@@ -1,18 +1,17 @@
 {
-  "name": "1-create-bundle",
+  "name": "css-loader",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server",
-    "build": "node_modules/.bin/webpack"
+    "dev": "webpack-dev-server --open-page \"dist/index.html\"",
+    "build": "webpack"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
+    "webpack": "4.29.4",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14",
+    "html-webpack-plugin": "3.2.0",
     "css-loader": "^0.28.7",
-    "style-loader": "^0.19.0",
-    "webpack": "^3.7.1",
-    "webpack-dev-server": "^2.9.1"
+    "style-loader": "^0.19.0"
   }
 }

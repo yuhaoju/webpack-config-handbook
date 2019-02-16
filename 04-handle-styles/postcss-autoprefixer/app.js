@@ -1,2 +1,2 @@
 import './style.css';
-document.write('My Webpack app.<br/>');
+document.write('Check body style in devtool<br/>');

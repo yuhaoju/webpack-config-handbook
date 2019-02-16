@@ -7,14 +7,14 @@ export default {
     name: 'app',
     data() {
         return {
-            title: 'Welcome to Your Vue.js App'
-        }
-    }
-}
+            title: 'Welcome to Vue'
+        };
+    },
+};
 </script>
 
 <style lang="css">
 h1 {
-    color: #09c;
+    background-color: #eee;
 }
 </style>

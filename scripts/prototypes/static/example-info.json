@@ -1,0 +1,295 @@
+{
+  "01-get-started": {
+    "hello-webpack": {
+      "deps": {}
+    }
+  },
+  "02-entry-and-output": {
+    "entry-array": {
+      "deps": {
+        "babel-polyfill": "^6.26.0"
+      }
+    },
+    "entry-function": {
+      "deps": {
+        "babel-polyfill": "^6.26.0"
+      }
+    },
+    "entry-object": {
+      "deps": {}
+    },
+    "entry-string": {
+      "deps": {}
+    },
+    "output-filename": {
+      "deps": {
+        "babel-polyfill": "^6.26.0"
+      }
+    }
+  },
+  "03-loaders": {
+    "babel-loader": {
+      "deps": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.3.1",
+        "babel-loader": "^8.0.5"
+      }
+    },
+    "css-loader": {
+      "deps": {
+        "css-loader": "^0.28.7",
+        "style-loader": "^0.19.0"
+      }
+    },
+    "eslint-loader": {
+      "deps": {
+        "eslint": "^4.17.0",
+        "eslint-loader": "^1.9.0"
+      }
+    },
+    "file-loader": {
+      "deps": {
+        "file-loader": "^1.1.6"
+      }
+    },
+    "handlebars-loader": {
+      "deps": {
+        "handlebars-loader": "^1.6.0",
+        "handlebars": "^4.0.11"
+      }
+    },
+    "how-to-write-a-loader": {
+      "deps": {
+        "force-strict-loader": "file:./force-strict-loader"
+      }
+    },
+    "html-loader": {
+      "deps": {
+        "html-loader": "^0.5.5"
+      }
+    },
+    "ts-loader": {
+      "deps": {
+        "ts-loader": "^3.5.0",
+        "typescript": "^2.7.1"
+      }
+    },
+    "url-loader": {
+      "deps": {
+        "url-loader": "^0.6.2"
+      }
+    },
+    "vue-loader": {
+      "deps": {
+        "css-loader": "^0.28.9",
+        "vue": "^2.5.13",
+        "vue-loader": "^14.1.1",
+        "vue-template-compiler": "^2.5.13"
+      }
+    }
+  },
+  "04-handle-styles": {
+    "css-modules": {
+      "deps": {
+        "css-loader": "^0.28.7",
+        "style-loader": "^0.19.0"
+      }
+    },
+    "extract-css": {
+      "deps": {
+        "css-loader": "^0.28.7",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "style-loader": "^0.19.0"
+      }
+    },
+    "extract-multiple-css": {
+      "deps": {
+        "css-loader": "^0.28.7",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "style-loader": "^0.19.0"
+      }
+    },
+    "less": {
+      "deps": {
+        "less": "^3.0.1",
+        "less-loader": "^4.1.0",
+        "css-loader": "^0.28.7",
+        "style-loader": "^0.19.0"
+      }
+    },
+    "mini-css-extract-plugin": {
+      "deps": {
+        "css-loader": "^0.28.7",
+        "html-webpack-plugin": "3.2.0",
+        "mini-css-extract-plugin": "^0.5.0"
+      }
+    },
+    "postcss-autoprefixer": {
+      "deps": {
+        "autoprefixer": "^8.1.0",
+        "css-loader": "^0.28.7",
+        "postcss-loader": "^2.1.2",
+        "style-loader": "^0.19.0"
+      }
+    },
+    "postcss-cssnext": {
+      "deps": {
+        "postcss-cssnext": "^3.1.0",
+        "css-loader": "^0.28.7",
+        "postcss-loader": "^2.1.2",
+        "style-loader": "^0.19.0"
+      }
+    },
+    "postcss-loader": {
+      "deps": {
+        "css-loader": "^0.28.7",
+        "postcss-loader": "^2.1.2",
+        "style-loader": "^0.19.0"
+      }
+    },
+    "postcss-stylelint": {
+      "deps": {
+        "css-loader": "^0.28.7",
+        "postcss-loader": "^2.1.2",
+        "style-loader": "^0.19.0",
+        "stylelint": "^9.1.3"
+      }
+    },
+    "scss": {
+      "deps": {
+        "css-loader": "^0.28.7",
+        "style-loader": "^0.19.0",
+        "node-sass": "^4.7.2",
+        "sass-loader": "^6.0.7"
+      }
+    }
+  },
+  "05-code-splitting": {
+    "async-chunk": {
+      "deps": {}
+    },
+    "commons-chunk-async": {
+      "deps": {
+        "react": "^16.8.0"
+      }
+    },
+    "commons-chunk-extract-runtime": {
+      "deps": {
+        "react": "^16.8.0"
+      }
+    },
+    "commons-chunk-opt-chunks": {
+      "deps": {
+        "react": "^16.8.0"
+      }
+    },
+    "commons-chunk-opt-minchunks": {
+      "deps": {
+        "lodash": "^4.17.5",
+        "react": "^16.8.0"
+      }
+    },
+    "commons-chunk-simple": {
+      "deps": {
+        "react": "^16.8.0"
+      }
+    },
+    "commons-chunk-vendor": {
+      "deps": {
+        "lodash": "^4.17.10",
+        "react": "^16.8.0"
+      }
+    }
+  },
+  "06-config-in-prod": {
+    "caching": {
+      "deps": {
+        "react": "^16.8.0"
+      }
+    },
+    "define-plugin": {
+      "deps": {}
+    },
+    "html-webpack-plugin": {
+      "deps": {
+        "html-webpack-plugin": "^3.2.0",
+        "react": "^16.8.0"
+      }
+    },
+    "minification": {
+      "deps": {
+        "uglifyjs-webpack-plugin": "^1.2.5"
+      }
+    },
+    "minification-css": {
+      "deps": {
+        "css-loader": "^0.28.11",
+        "extract-text-webpack-plugin": "next",
+        "optimize-css-assets-webpack-plugin": "^4.0.1",
+        "style-loader": "^0.21.0"
+      }
+    }
+  },
+  "07-bundle-optimization": {
+    "dll-plugin": {
+      "deps": {
+        "react": "^16.8.0"
+      }
+    },
+    "happypack": {
+      "deps": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "happypack": "^5.0.0",
+        "react": "^16.8.0",
+        "react-dom": "^16.8.0"
+      }
+    },
+    "scope-hoisting": {
+      "deps": {}
+    },
+    "tree-shaking": {
+      "deps": {}
+    }
+  },
+  "08-best-practice-for-dev": {
+    "hmr-react": {
+      "deps": {
+        "@babel/core": "^7.0.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.0",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "react-hot-loader": "^4.3.5"
+      }
+    },
+    "size-plugin": {
+      "deps": {
+        "lodash": "^4.17.10",
+        "size-plugin": "^1.0.1"
+      }
+    },
+    "speed-measure-webpack-plugin": {
+      "deps": {
+        "speed-measure-webpack-plugin": "^1.2.2"
+      }
+    },
+    "webpack-dashboard": {
+      "deps": {
+        "webpack-dashboard": "^2.0.0"
+      }
+    },
+    "webpack-merge": {
+      "deps": {
+        "webpack-merge": "^4.1.4"
+      }
+    }
+  },
+  "09-others": {
+    "externals": {
+      "deps": {}
+    }
+  }
+}

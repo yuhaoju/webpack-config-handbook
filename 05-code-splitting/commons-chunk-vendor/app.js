@@ -1,2 +1,8 @@
 import React from 'react';
-document.write('app.js', React.version);
+import array from 'lodash/array';
+document.write('app.js');
+
+
+
+
+

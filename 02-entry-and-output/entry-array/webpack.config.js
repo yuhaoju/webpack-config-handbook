@@ -1,13 +1,15 @@
 const path = require('path');
+const htmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: ['babel-polyfill', './index.js'],
-    output: {
-        path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js'
-    },
-    devServer: {
-        publicPath: "/dist/",
-        port: 3000
-    }
-}
+  entry: ['babel-polyfill', './index.js'],
+  output: {
+    path: path.join(__dirname, 'dist'),
+    filename: '[name].js',
+  },
+  plugins: [new htmlPlugin({ title: path.basename(__dirname), })],
+  devServer: {
+    publicPath: '/dist/',
+    port: 3000,
+  },
+};

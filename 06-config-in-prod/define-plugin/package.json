@@ -1,0 +1,15 @@
+{
+  "name": "define-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "webpack-dev-server --open-page \"dist/index.html\"",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "4.29.4",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14",
+    "html-webpack-plugin": "3.2.0"
+  }
+}

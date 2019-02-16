@@ -1,19 +1,16 @@
 {
-  "name": "webpack-examples",
+  "name": "output-filename",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server",
+    "dev": "webpack-dev-server --open-page \"dist/index.html\"",
     "build": "webpack"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.7.1",
-    "webpack-dev-server": "^2.9.1"
-  },
-  "dependencies": {
+    "webpack": "4.29.4",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14",
+    "html-webpack-plugin": "3.2.0",
     "babel-polyfill": "^6.26.0"
   }
 }

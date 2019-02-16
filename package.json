@@ -1,0 +1,20 @@
+{
+  "name": "webpack-examples",
+  "version": "0.1.0",
+  "description": "Minimum Webpack config handbook & examples",
+  "repository": "git@github.com:yuhaoju/webpack-examples.git",
+  "author": "Yuhao Ju <yuhaoju0623@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "open": "node scripts/commands/open-example.js"
+  },
+  "dependencies": {
+    "colors": "^1.3.0",
+    "command-line-args": "^5.0.2",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "jest": "^23.0.0",
+    "jest-specific-snapshot": "^0.5.0"
+  }
+}

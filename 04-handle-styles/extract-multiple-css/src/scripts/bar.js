@@ -1,3 +1,2 @@
-// ./src/scripts/bar.js
 import '../styles/bar-style.css';
-document.write('bar.js');
+document.write('bar.js<br/>');

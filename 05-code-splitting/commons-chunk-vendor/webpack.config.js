@@ -12,12 +12,11 @@ module.exports = {
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
-            name: 'vendor',
-            filename: 'vendor.js',
+            name: 'vendor'
         })
     ],
     devServer: {
         publicPath: '/dist/',
         port: 3000
-    },
-}
+    }
+};

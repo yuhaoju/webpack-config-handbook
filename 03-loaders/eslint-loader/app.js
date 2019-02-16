@@ -1,1 +1,1 @@
-console.log("abc");
+document.write('using eslint');
