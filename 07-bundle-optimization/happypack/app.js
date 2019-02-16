@@ -15,7 +15,7 @@ export default class App extends React.Component {
                     <li><a href="https://facebook.github.io/react/tutorial/tutorial.html" target="_blank">Tutorial</a></li>
                 </ul>
             </div>
-        )
+        );
     }
 }
 

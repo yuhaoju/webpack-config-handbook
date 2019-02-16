@@ -23,7 +23,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new htmlPlugin({ title: path.basename(__dirname), }),
+    new htmlPlugin({ title: path.basename(__dirname) }),
     new ExtractTextPlugin('[name]@[contentHash:8].css')
   ],
   devServer: {

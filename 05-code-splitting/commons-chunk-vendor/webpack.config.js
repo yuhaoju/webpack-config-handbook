@@ -4,19 +4,19 @@ const webpack = require('webpack');
 module.exports = {
     entry: {
         app: './app.js',
-        vendor: ['react']
+        vendor: ['react'],
     },
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: '[name].js'
+        filename: '[name].js',
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
-            name: 'vendor'
+            name: 'vendor',
         })
     ],
     devServer: {
         publicPath: '/dist/',
-        port: 3000
-    }
+        port: 3000,
+    },
 };

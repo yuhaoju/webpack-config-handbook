@@ -22,7 +22,7 @@ async function install() {
         try {
           childProcess.exec(
             'yarn install --non-interactive',
-            { cwd: examplePath, },
+            { cwd: examplePath },
             (err, stdout) => {
               if (err) {
                 reject(err);

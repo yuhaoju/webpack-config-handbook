@@ -3,15 +3,13 @@ const htmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: () => ({
-    partA: './partA.js',
-    partB: './partB.js',
-    index: ['babel-polyfill', './index.js'],
+    partA: './src/partA.js',
+    partB: './src/partB.js',
+    index: ['babel-polyfill', './src/index.js'],
   }),
-  output: {
-    path: path.join(__dirname, 'dist'),
-    filename: '[name].js',
-  },
-  plugins: [new htmlPlugin({ title: path.basename(__dirname), })],
+  output: { filename: '[name].js' },
+  mode: 'development',
+  plugins: [new htmlPlugin({ title: path.basename(__dirname) })],
   devServer: {
     publicPath: '/dist/',
     port: 3000,

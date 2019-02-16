@@ -25,9 +25,12 @@ Executable Webpack demos, still UPDATING!
 ## How to run the demo
 
 1. clone repo & enter the demo directory
-2. npm i
-3. npm start
-4. check http://localhost:3000
+2. run a demo by `yarn open <path>`
+
+For example
+```shell
+$ yarn open yarn open 05-code-splitting/async-chunk
+```
 
 ## Content
 

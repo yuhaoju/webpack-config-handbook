@@ -5,17 +5,17 @@ module.exports = {
     entry: './app.js',
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
     },
     optimization: {
         minimizer: [
             new UglifyJsPlugin({
                 /* your config */
             })
-        ]
+        ],
     },
     devServer: {
         publicPath: '/dist/',
-        port: 3000
-    }
+        port: 3000,
+    },
 };

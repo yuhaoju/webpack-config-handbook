@@ -17,5 +17,6 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-hot-loader": "^4.3.5"
-  }
+  },
+  "license": "MIT"
 }

@@ -9,7 +9,7 @@ module.exports = {
     filename: '[name].js',
   },
   plugins: [
-    new htmlPlugin({ title: path.basename(__dirname), }),
+    new htmlPlugin({ title: path.basename(__dirname) }),
     new DashboardPlugin()
   ],
   devServer: {

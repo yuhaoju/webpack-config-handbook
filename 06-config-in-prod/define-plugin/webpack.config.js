@@ -5,7 +5,7 @@ module.exports = {
     entry: './app.js',
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
     },
     devtool: 'eval-source-map',
     plugins: [
@@ -13,12 +13,12 @@ module.exports = {
             IS_PRODUCTION: true,
             ENV_ID: 130912098,
             CONSTANTS: {
-                TYPES: JSON.stringify(['foo', 'bar'])
-            }
+                TYPES: JSON.stringify(['foo', 'bar']),
+            },
         })
     ],
     devServer: {
         publicPath: '/dist/',
-        port: 3000
-    }
+        port: 3000,
+    },
 };

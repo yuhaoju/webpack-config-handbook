@@ -4,11 +4,11 @@ const webpack = require('webpack');
 module.exports = {
     entry: {
         foo: './foo.js',
-        bar: './bar.js'
+        bar: './bar.js',
     },
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: '[name].js'
+        filename: '[name].js',
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
@@ -18,6 +18,6 @@ module.exports = {
     ],
     devServer: {
         publicPath: '/dist/',
-        port: 3000
+        port: 3000,
     },
-}
+};
