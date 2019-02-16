@@ -8,9 +8,9 @@ module.exports = {
     bar: './src/scripts/bar.js',
   },
   output: {
-    path: path.join(__dirname, 'dist'),
     filename: '[name].js',
   },
+  mode: 'development',
   module: {
     rules: [
       {

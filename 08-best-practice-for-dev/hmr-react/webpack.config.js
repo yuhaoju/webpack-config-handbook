@@ -3,10 +3,11 @@ const webpack = require('webpack');
 const htmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './app.js',
+  entry: './src/index.js',
   output: {
     filename: '[name].js',
   },
+  mode: 'development',
   module: {
     rules: [
       {
@@ -23,7 +24,6 @@ module.exports = {
     new htmlPlugin({ title: path.basename(__dirname) }),
     new webpack.HotModuleReplacementPlugin()
   ],
-  mode: 'development',
   devServer: {
     hot: true,
     publicPath: '/dist/',

@@ -3,14 +3,14 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    app: './app.js',
-    util: './util.js',
+    app: './src/index.js',
+    util: './src/util.js',
   },
   output: {
-    path: path.join(__dirname, 'dist'),
     publicPath: './dist/',
     filename: '[name]@[chunkhash].js',
   },
+  mode: 'development',
   plugins: [
     new webpack.DllReferencePlugin({
       manifest: require(path.join(__dirname, 'dll/manifest.json')),
@@ -20,5 +20,4 @@ module.exports = {
     publicPath: '/dist/',
     port: 3000,
   },
-  mode: 'development',
 };
