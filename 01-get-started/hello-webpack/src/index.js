@@ -1,3 +1,2 @@
-import writeContent from './writeContent.js';
-document.write('Hello<br/>');
-writeContent();
+import content from './content.js';
+document.write(content);
