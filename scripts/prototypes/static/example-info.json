@@ -30,9 +30,9 @@
   "03-loaders": {
     "babel-loader": {
       "deps": {
-        "babel-core": "^6.26.0",
-        "babel-loader": "^7.1.2",
-        "babel-preset-env": "^1.6.1"
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.3.1",
+        "babel-loader": "^8.0.5"
       }
     },
     "css-loader": {
@@ -117,6 +117,11 @@
         "style-loader": "^0.19.0"
       }
     },
+    "mini-css-extract-plugin": {
+      "css-loader": "^0.28.7",
+      "html-webpack-plugin": "3.2.0",
+      "mini-css-extract-plugin": "^0.5.0"
+    },
     "postcss-autoprefixer": {
       "deps": {
         "autoprefixer": "^8.1.0",
@@ -163,41 +168,41 @@
     },
     "commons-chunk-async": {
       "deps": {
-        "react": "^16.4.0"
+        "react": "^16.8.0"
       }
     },
     "commons-chunk-extract-runtime": {
       "deps": {
-        "react": "^16.4.0"
+        "react": "^16.8.0"
       }
     },
     "commons-chunk-opt-chunks": {
       "deps": {
-        "react": "^16.4.0"
+        "react": "^16.8.0"
       }
     },
     "commons-chunk-opt-minchunks": {
       "deps": {
         "lodash": "^4.17.5",
-        "react": "^16.4.0"
+        "react": "^16.8.0"
       }
     },
     "commons-chunk-simple": {
       "deps": {
-        "react": "^16.4.0"
+        "react": "^16.8.0"
       }
     },
     "commons-chunk-vendor": {
       "deps": {
         "lodash": "^4.17.10",
-        "react": "^16.4.0"
+        "react": "^16.8.0"
       }
     }
   },
   "06-config-in-prod": {
     "caching": {
       "deps": {
-        "react": "^16.4.0"
+        "react": "^16.8.0"
       }
     },
     "define-plugin": {
@@ -206,7 +211,7 @@
     "html-webpack-plugin": {
       "deps": {
         "html-webpack-plugin": "^3.2.0",
-        "react": "^16.4.0"
+        "react": "^16.8.0"
       }
     },
     "minification": {
@@ -226,7 +231,7 @@
   "07-bundle-optimization": {
     "dll-plugin": {
       "deps": {
-        "react": "^16.4.0"
+        "react": "^16.8.0"
       }
     },
     "happypack": {
@@ -236,8 +241,8 @@
         "babel-preset-env": "^1.6.1",
         "babel-preset-react": "^6.24.1",
         "happypack": "^5.0.0",
-        "react": "^16.0.0",
-        "react-dom": "^16.0.0"
+        "react": "^16.8.0",
+        "react-dom": "^16.8.0"
       }
     },
     "scope-hoisting": {
