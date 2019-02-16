@@ -1,4 +1,4 @@
-# webpack-examples
+# webpack-config-handbook
 
 Executable Webpack demos, still UPDATING!
 
