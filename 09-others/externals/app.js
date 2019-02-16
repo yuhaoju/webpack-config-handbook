@@ -1,2 +1,2 @@
 import $ from 'jquery';
-$('body').append("<b>Hello jQuery!</b>");
+$('body').append('<b>Hello jQuery!</b>');

@@ -24,7 +24,7 @@ module.exports = {
   },
   mode: 'development',
   plugins: [
-    new htmlPlugin({ title: path.basename(__dirname), }),
+    new htmlPlugin({ title: path.basename(__dirname) }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css',

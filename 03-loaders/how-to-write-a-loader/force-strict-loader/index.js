@@ -16,7 +16,7 @@ module.exports = function(content, sourceMap) {
       new SourceMapConsumer(sourceMap)
     );
     node.prepend(useStrictPrefix);
-    var result = node.toStringWithSourceMap({ file: currentRequest, });
+    var result = node.toStringWithSourceMap({ file: currentRequest });
     this.callback(null, result.code, result.map.toJSON());
     return;
   }

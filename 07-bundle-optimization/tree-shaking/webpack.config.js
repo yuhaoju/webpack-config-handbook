@@ -5,18 +5,18 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
         publicPath: './dist/',
-        filename: 'bundle.js'
+        filename: 'bundle.js',
     },
     module: {
         loaders: [
             {
                 test: /\.css/,
-                loader: 'style-loader!css-loader'
+                loader: 'style-loader!css-loader',
             }
-        ]
+        ],
     },
     devServer: {
-        publicPath: "/dist/",
-        port: 3000
-    }
-}
+        publicPath: '/dist/',
+        port: 3000,
+    },
+};

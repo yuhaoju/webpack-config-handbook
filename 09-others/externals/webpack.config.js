@@ -4,13 +4,13 @@ module.exports = {
     entry: './app.js',
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
     },
     externals: {
-        jquery: 'window.$'
+        jquery: 'window.$',
     },
     devServer: {
-        publicPath: "/dist/",
-        port: 3000
-    }
-}
+        publicPath: '/dist/',
+        port: 3000,
+    },
+};

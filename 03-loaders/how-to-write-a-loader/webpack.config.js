@@ -21,7 +21,7 @@ module.exports = {
     ],
   },
   devtool: 'source-map',
-  plugins: [new htmlPlugin({ title: path.basename(__dirname), })],
+  plugins: [new htmlPlugin({ title: path.basename(__dirname) })],
   devServer: {
     publicPath: '/dist/',
     port: 3000,

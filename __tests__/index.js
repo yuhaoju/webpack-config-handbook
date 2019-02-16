@@ -14,7 +14,7 @@ for (const categoryId of Object.keys(pkgsExamples)) {
     const examplePath = path.join(rootPath, categoryId, exampleId);
 
     describe(`Testing example: ${examplePath}`, () => {
-      childProcess.execSync('yarn build', { cwd: examplePath, });
+      childProcess.execSync('yarn build', { cwd: examplePath });
 
       const distPath = path.join(examplePath, 'dist');
       fs.readdirSync(distPath).map(assetId => {
