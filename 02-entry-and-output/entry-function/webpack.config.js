@@ -7,10 +7,8 @@ module.exports = {
     partB: './src/partB.js',
     index: ['babel-polyfill', './src/index.js'],
   }),
-  output: {
-    path: path.join(__dirname, 'dist'),
-    filename: '[name].js',
-  },
+  output: { filename: '[name].js' },
+  mode: 'development',
   plugins: [new htmlPlugin({ title: path.basename(__dirname) })],
   devServer: {
     publicPath: '/dist/',

@@ -3,14 +3,12 @@ const htmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './index.js',
-    partA: './partA.js',
-    partB: './partB.js',
+    index: './src/index.js',
+    partA: './src/partA.js',
+    partB: './src/partB.js',
   },
-  output: {
-    path: path.join(__dirname, 'dist'),
-    filename: '[name].js',
-  },
+  output: { filename: '[name].js' },
+  mode: 'development',
   plugins: [new htmlPlugin({ title: path.basename(__dirname) })],
   devServer: {
     publicPath: '/dist/',
