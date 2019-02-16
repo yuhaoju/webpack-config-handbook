@@ -254,6 +254,39 @@
       "deps": {}
     }
   },
+  "08-best-practice-for-dev": {
+    "hmr-react": {
+      "deps": {
+        "@babel/core": "^7.0.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.0",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "react-hot-loader": "^4.3.5"
+      }
+    },
+    "size-plugin": {
+      "deps": {
+        "lodash": "^4.17.10",
+        "size-plugin": "^1.0.1"
+      }
+    },
+    "speed-measure-webpack-plugin": {
+      "deps": {
+        "speed-measure-webpack-plugin": "^1.2.2"
+      }
+    },
+    "webpack-dashboard": {
+      "deps": {
+        "webpack-dashboard": "^2.0.0"
+      }
+    },
+    "webpack-merge": {
+      "deps": {
+        "webpack-merge": "^4.1.4"
+      }
+    }
+  },
   "09-others": {
     "externals": {
       "deps": {}
