@@ -2,11 +2,11 @@ const path = require('path');
 const htmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './app.ts',
+  entry: './src/index.ts',
   output: {
-    path: path.join(__dirname, 'dist'),
     filename: '[name].js',
   },
+  mode: 'development',
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
   },

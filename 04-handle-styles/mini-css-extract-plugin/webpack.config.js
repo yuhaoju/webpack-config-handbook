@@ -3,11 +3,11 @@ const htmlPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: './app.js',
+  entry: './src/index.js',
   output: {
-    path: path.join(__dirname, 'dist'),
     filename: '[name].js',
   },
+  mode: 'development',
   module: {
     rules: [{
       test: /\.css$/,
@@ -22,7 +22,6 @@ module.exports = {
       ],
     }],
   },
-  mode: 'development',
   plugins: [
     new htmlPlugin({ title: path.basename(__dirname) }),
     new MiniCssExtractPlugin({

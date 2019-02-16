@@ -167,38 +167,6 @@
   "05-code-splitting": {
     "async-chunk": {
       "deps": {}
-    },
-    "commons-chunk-async": {
-      "deps": {
-        "react": "^16.8.0"
-      }
-    },
-    "commons-chunk-extract-runtime": {
-      "deps": {
-        "react": "^16.8.0"
-      }
-    },
-    "commons-chunk-opt-chunks": {
-      "deps": {
-        "react": "^16.8.0"
-      }
-    },
-    "commons-chunk-opt-minchunks": {
-      "deps": {
-        "lodash": "^4.17.5",
-        "react": "^16.8.0"
-      }
-    },
-    "commons-chunk-simple": {
-      "deps": {
-        "react": "^16.8.0"
-      }
-    },
-    "commons-chunk-vendor": {
-      "deps": {
-        "lodash": "^4.17.10",
-        "react": "^16.8.0"
-      }
     }
   },
   "06-config-in-prod": {

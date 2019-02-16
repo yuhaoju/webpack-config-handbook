@@ -3,11 +3,11 @@ const htmlPlugin = require('html-webpack-plugin');
 const DashboardPlugin = require('webpack-dashboard/plugin');
 
 module.exports = {
-  entry: './app.js',
+  entry: './src/index.js',
   output: {
-    path: path.join(__dirname, 'dist'),
     filename: '[name].js',
   },
+  mode: 'development',
   plugins: [
     new htmlPlugin({ title: path.basename(__dirname) }),
     new DashboardPlugin()

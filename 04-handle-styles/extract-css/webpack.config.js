@@ -3,11 +3,11 @@ const htmlPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  entry: './app.js',
+  entry: './src/index.js',
   output: {
-    path: path.join(__dirname, 'dist'),
     filename: '[name].js',
   },
+  mode: 'development',
   module: {
     rules: [
       {

@@ -4,19 +4,18 @@ const SizePlugin = require('size-plugin');
 
 module.exports = {
   entry: {
-    app: './app.js',
-    pageA: './pageA.js',
-    pageB: './pageB.js',
+    app: './src/index.js',
+    pageA: './src/pageA.js',
+    pageB: './src/pageB.js',
   },
   output: {
-    path: path.join(__dirname, 'dist'),
     filename: '[name].js',
   },
+  mode: 'development',
   plugins: [
     new htmlPlugin({ title: path.basename(__dirname) }),
     new SizePlugin()
   ],
-  mode: 'development',
   devServer: {
     publicPath: '/dist/',
     port: 3000,

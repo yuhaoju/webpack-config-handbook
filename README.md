@@ -1,4 +1,4 @@
-# webpack-examples
+# webpack-config-handbook
 
 Executable Webpack demos, still UPDATING!
 
@@ -27,9 +27,9 @@ Executable Webpack demos, still UPDATING!
 1. clone repo & enter the demo directory
 2. run a demo by `yarn open <path>`
 
-For example
+For example:
 ```shell
-$ yarn open yarn open 05-code-splitting/async-chunk
+$ yarn open 05-code-splitting/async-chunk
 ```
 
 ## Content
@@ -79,12 +79,6 @@ $ yarn open yarn open 05-code-splitting/async-chunk
 ### 05-code-splitting
 
 - [async-chunk](/05-code-splitting/async-chunk)
-- [commons-chunk-async](/05-code-splitting/[commons-chunk-async)
-- [commons-chunk-simple](/05-code-splitting/commons-chunk-simple)
-- [commons-chunk-vendor](/05-code-splitting/commons-chunk-vendor)
-- [commons-chunk-opt-chunks](/05-code-splitting/[commons-chunk-opt-chunks)
-- [commons-chunk-opt-minchunks](/05-code-splitting/[commons-chunk-opt-minchunks)
-- [commons-extract-runtime](/05-code-splitting/[commons-chunk-runtime)
 
 ### 06-config-in-prod
 

@@ -1,4 +1,3 @@
-const path = require('path');
 const HappyPack = require('happypack');
 
 const babelQuery = {
@@ -18,13 +17,13 @@ const babelQuery = {
 
 module.exports = {
   entry: {
-    app: './app.js',
+    app: './src/index.js',
   },
   output: {
-    path: path.join(__dirname, 'dist'),
     publicPath: './dist/',
     filename: '[name].js',
   },
+  mode: 'development',
   module: {
     rules: [
       {

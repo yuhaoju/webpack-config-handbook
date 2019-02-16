@@ -1,16 +1,14 @@
-const path = require('path');
-
 module.exports = {
-    entry: './app.js',
-    output: {
-        path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js',
-    },
-    externals: {
-        jquery: 'window.$',
-    },
-    devServer: {
-        publicPath: '/dist/',
-        port: 3000,
-    },
+  entry: './src/index.js',
+  output: {
+    filename: 'bundle.js',
+  },
+  mode: 'development',
+  externals: {
+    jquery: 'window.$',
+  },
+  devServer: {
+    publicPath: '/dist/',
+    port: 3000,
+  },
 };
