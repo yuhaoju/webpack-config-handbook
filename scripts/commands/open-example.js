@@ -17,9 +17,7 @@ async function start() {
   const yarnlockPath = path.join(workPath, 'yarn.lock');
   if (workPath && fs.existsSync(yarnlockPath)) {
     const execOpt = { cwd: workPath, };
-    await childProcess.exec('yarn', execOpt, (err, stdout) => {
-      console.log(stdout);
-    });
+    childProcess.execSync('yarn', execOpt);
     childProcess.execSync('yarn dev', execOpt);
   } else {
     return console.log('Not an example directory'.red);
