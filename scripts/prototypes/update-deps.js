@@ -18,8 +18,8 @@ Object.keys(pkgsExamples).forEach(categoryId => {
     const newPkgContent = JSON.parse(
       pkgsTemplate.replace('${{example-name}}', exampleId)
     );
-    newPkgContent.dependencies = Object.assign(
-      newPkgContent.dependencies,
+    newPkgContent.devDependencies = Object.assign(
+      newPkgContent.devDependencies || {},
       exmapleDeps
     );
 
